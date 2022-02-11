@@ -8,7 +8,7 @@ function App() {
 
   const fetchingData = async () => {
     const response = await fetch(
-      "https://uselessfacts.jsph.pl/random.json?language=en"
+      "http://www.cbp-practise.test/day-25-morning-workout-simple-API/"
     );
     const data = await response.json();
 
